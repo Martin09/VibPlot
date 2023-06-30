@@ -101,4 +101,4 @@ if __name__ == "__main__":
 
     # Prompt user when processing is finished
     messagebox.showinfo(title='Done Message',
-                        message=f'Done processing {len(input_files)} file{"s" if len(input_files) > 1 else ""}!')
+                        message=f'Done processing {len(input_files)} file{"" if len(input_files) == 1 else "s"}!')
